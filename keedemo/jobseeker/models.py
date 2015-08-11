@@ -19,10 +19,10 @@ class Jobseeker (models.Model):
     adresse = models.CharField(max_length=200,blank = True)
     code_postal = models.CharField(blank = True,max_length = 200)
     telephone = models.CharField(max_length=8, blank = True)
-    msg_instantanne = models.CharField(max_length = 200,blank = True)
-    permis_conduire = models.BooleanField(default = False)
-    titulaire_voitre = models.BooleanField(default = False)
-    avoir_handicap =  models.BooleanField(default = False)
+    # msg_instantanne = models.CharField(max_length = 200,blank = True)
+    # permis_conduire = models.BooleanField(default = False)
+    # titulaire_voitre = models.BooleanField(default = False)
+    # avoir_handicap =  models.BooleanField(default = False)
 
 class CvInfoPro (models.Model):
     titre_profil = models.CharField(max_length=200)
